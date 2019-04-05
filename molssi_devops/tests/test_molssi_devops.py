@@ -8,5 +8,5 @@ import pytest
 import sys
 
 def test_molssi_devops_imported():
-    """Sample test, will always pass so long as import statement worked"""
-    assert "molssi_devops" in sys.modules
+	"""Sample test, will always pass so long as import statement worked"""
+	assert "molssi_devops" in sys.modules
