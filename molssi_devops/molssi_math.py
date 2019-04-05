@@ -5,6 +5,25 @@ best practices workshop
 Handles the primary functions
 """
 
+def mean(num_list):
+    """
+	Calculate the mean/average of a list of numbers.
+
+	Parameters
+	-----------
+	num_list : list
+		The list to take the average of
+		
+	Returns
+	-----------
+	mean_list ： float
+        The means of the list
+    """
+
+    mean_list = sum(num_list)/len(num_list)
+
+    return mean_list
+
 
 def canvas(with_attribution=True):
     """
